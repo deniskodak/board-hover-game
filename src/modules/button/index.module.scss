@@ -1,0 +1,16 @@
+@import '../../styles/variables.scss';
+
+.button {
+    padding: 5px 10px;
+
+    font-size: 16px;
+    font-weight: 500;
+    color: $btn-txt-cl;
+    text-transform: uppercase;
+
+    background-color: $btn-bg-cl;
+
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}

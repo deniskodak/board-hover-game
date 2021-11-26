@@ -1,0 +1,40 @@
+@import '../../styles/variables.scss';
+
+.hoverBox {}
+
+;
+
+.title {
+    margin-bottom: 1rem;
+}
+
+;
+
+.list {
+    height: 30vh;
+    overflow: auto;
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+;
+
+.item {
+    padding: 10px 2px;
+
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: lowercase;
+    color: $statistic-item-text-cl;
+
+    background-color: $statistic-item-bg-cl;
+
+    border: 1px solid $statistic-item-border-cl;
+    border-radius: 5px;
+
+    &:not(:last-child) {
+        margin-bottom: 0.5rem;
+    }
+}
