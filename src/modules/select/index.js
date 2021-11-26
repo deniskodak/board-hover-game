@@ -15,7 +15,7 @@ const apiOptions = {
   },
 };
 
-const selectLables = {
+const selectLabels = {
   default: "pick mode",
   easyMode: "easy mode",
   normalMode: "normal mode",
@@ -26,10 +26,16 @@ const SelectModule = () => {
   const modeKeys = Object.keys(apiOptions);
   const selectOptions = modeKeys.map((key) => ({
     value: apiOptions[key].field,
-    label: selectLables[key],
+    label: selectLabels[key],
   }));
 
-  return <Select options={selectOptions}></Select>;
+  return (
+    <Select
+      options={selectOptions}
+      placeholder="Pick mode"
+      onChange={(e) => console.log(e)}
+    ></Select>
+  );
 };
 
 export default SelectModule;
