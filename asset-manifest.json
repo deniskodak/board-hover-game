@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/board-hover-game/static/css/main.be7bb644.chunk.css",
-    "main.js": "/board-hover-game/static/js/main.12c8bdef.chunk.js",
-    "main.js.map": "/board-hover-game/static/js/main.12c8bdef.chunk.js.map",
+    "main.js": "/board-hover-game/static/js/main.1f280107.chunk.js",
+    "main.js.map": "/board-hover-game/static/js/main.1f280107.chunk.js.map",
     "runtime-main.js": "/board-hover-game/static/js/runtime-main.213443b2.js",
     "runtime-main.js.map": "/board-hover-game/static/js/runtime-main.213443b2.js.map",
     "static/js/2.a94b4392.chunk.js": "/board-hover-game/static/js/2.a94b4392.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.213443b2.js",
     "static/js/2.a94b4392.chunk.js",
     "static/css/main.be7bb644.chunk.css",
-    "static/js/main.12c8bdef.chunk.js"
+    "static/js/main.1f280107.chunk.js"
   ]
 }
