@@ -1,17 +1,16 @@
 @import '../../styles/variables.scss';
 
-.hoverBox {}
-
-;
+.hoverBox {
+    margin-left: 3rem;
+}
 
 .title {
     margin-bottom: 1rem;
 }
 
-;
-
 .list {
-    height: 30vh;
+    height: auto;
+    max-height: calc(80vw / 2);
     overflow: auto;
 
     &::-webkit-scrollbar {
@@ -19,7 +18,6 @@
     }
 }
 
-;
 
 .item {
     padding: 10px 2px;

@@ -1,0 +1,10 @@
+@import '../../../styles/variables.scss';
+
+.row {
+    display: flex;
+    flex-wrap: nowrap;
+
+    &:last-child div {
+        border-bottom: $border;
+    }
+}

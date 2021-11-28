@@ -1,0 +1,32 @@
+@import '../../../styles/variables.scss';
+
+.button {
+    padding: 10px 10px;
+
+    width: 30%;
+    max-width: 150px;
+
+    font-size: 15px;
+    font-weight: 500;
+    color: $btn-txt-cl;
+    text-transform: uppercase;
+
+    background-color: $btn-bg-cl;
+
+    border: 1px solid $btn-bg-cl;
+    border-radius: 5px;
+    outline: none;
+
+    transition: background 200ms linear, color 200ms linear;
+
+    &:hover,
+    &:active {
+        color: $btn-bg-cl;
+        background-color: $btn-txt-cl;
+        cursor: pointer;
+    }
+
+    &:active {
+        background-color: $btn-bg-cl;
+    }
+}

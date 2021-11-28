@@ -3,18 +3,6 @@ import Select from "react-select";
 
 import styles from "./index.module.scss";
 
-const apiOptions = {
-  easyMode: {
-    field: 5,
-  },
-  normalMode: {
-    field: 10,
-  },
-  hardMode: {
-    field: 15,
-  },
-};
-
 const selectLabels = {
   default: "pick mode",
   easyMode: "easy mode",
@@ -22,18 +10,20 @@ const selectLabels = {
   hardMode: "hard mode",
 };
 
-const SelectModule = () => {
-  const modeKeys = Object.keys(apiOptions);
-  const selectOptions = modeKeys.map((key) => ({
-    value: apiOptions[key].field,
+const SelectModule = ({ modes, onChange }) => {
+  const modesKeys = Object.keys(modes);
+
+  const selectOptions = modesKeys.map((key) => ({
+    value: modes[key].field,
     label: selectLabels[key],
   }));
 
   return (
     <Select
+      className={styles.select}
       options={selectOptions}
-      placeholder="Pick mode"
-      onChange={(e) => console.log(e)}
+      placeholder={selectLabels.default}
+      onChange={onChange}
     ></Select>
   );
 };
