@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/board-hover-game/static/css/main.be7bb644.chunk.css",
+    "main.css": "/board-hover-game/static/css/main.9abc885d.chunk.css",
     "main.js": "/board-hover-game/static/js/main.1f280107.chunk.js",
     "main.js.map": "/board-hover-game/static/js/main.1f280107.chunk.js.map",
     "runtime-main.js": "/board-hover-game/static/js/runtime-main.213443b2.js",
@@ -10,13 +10,13 @@
     "static/js/3.84675965.chunk.js": "/board-hover-game/static/js/3.84675965.chunk.js",
     "static/js/3.84675965.chunk.js.map": "/board-hover-game/static/js/3.84675965.chunk.js.map",
     "index.html": "/board-hover-game/index.html",
-    "static/css/main.be7bb644.chunk.css.map": "/board-hover-game/static/css/main.be7bb644.chunk.css.map",
+    "static/css/main.9abc885d.chunk.css.map": "/board-hover-game/static/css/main.9abc885d.chunk.css.map",
     "static/js/2.a94b4392.chunk.js.LICENSE.txt": "/board-hover-game/static/js/2.a94b4392.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.213443b2.js",
     "static/js/2.a94b4392.chunk.js",
-    "static/css/main.be7bb644.chunk.css",
+    "static/css/main.9abc885d.chunk.css",
     "static/js/main.1f280107.chunk.js"
   ]
 }
